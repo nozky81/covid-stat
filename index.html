@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>COVID-19 World Count Update</title>
+</head>
+
+<body>
+    
+    <div class="container-fluid text-center">
+        <img src="/img/covid-19.jpeg" class="img-fluid shadow-default" alt="Responsive image">
+    </div>
+
+    <hr>
+
+    <div class="container-fluid">
+        <div class="card text-center">
+            <div class="card-header">
+              Covid-19 World Live Count Update
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">What is COVID-19?</h5>
+              <p class="card-text">On December 31, 2019, a cluster of cases of pneumonia was reported in Wuhan, China, and the cause has been confirmed as a new coronavirus that has not previously been identified in humans. This virus is now known as COVID-19 (previously called 2019 Novel Coronavirus or 2019-nCoV). The extent and severity of illness caused by the COVID-19 virus is still not fully known.
+                There are now confirmed cases of COVID-19 that have been identified in many countries, including Canada. The current situation is evolving. New information is becoming available daily and a clearer picture is being formed as this information is analyzed by provincial, national and international health agencies.
+                The Ontario Ministry of Health has added COVID-19 as a designated disease reportable under Ontario's public health legislation. Physicians, hospitals and other healthcare facilities are now required to report any suspected or confirmed case of COVID-19 to their local medical officer of health.</p>
+            </div>
+
+            <div class="card-body">
+                <h5 class="card-title">What are coronaviruses?</h5>
+                <p class="card-test">Coronaviruses are a large family of viruses. They can cause diseases ranging from the common cold to more severe diseases like Severe Acute Respiratory Syndrome (SARS) and Middle East Respiratory Syndrome (MERS-CoV). Some coronaviruses transmit easily from person to person, while others do not. There is now evidence of sustained human-to-human transmission of COVID-19 coronavirus in some countries.</p>
+            </div>
+
+            <div class="card-body badge-light">
+                <h3 class="card-title text-warning">World Total Cases</h3>
+                <p id="total">0000</p>
+            </div>
+
+            <div class="card-body">
+                <h4 class="card-title text-success">Recovered</h4>
+                <p id="recovered">0000</p>
+            </div>
+
+            <div class="card-body badge-light">
+                <h4 class="card-title text-danger">Deaths</h4>
+                <p id="deaths">0000</p>
+            </div>
+
+            <div class="card-body">
+                <h4 class="card-title text-info">Active Cases</h4>
+                <p id="active">0000</p>
+            </div>
+
+            <div class="card-body badge-light">
+                <h4 class="card-title text-info">Closed Cases</h4>
+                <p id="closed">0000</p>
+            </div>
+
+            <div class="card-footer text-muted">
+              <p id="updated">
+                 Fetching New Data From <a href="https://www.programmableweb.com/ " target="black" class="badge badge-info">https://www.programmableweb.com/ </a>In: <span id="timer" class="badge badge-secondary"></span> Seconds <br> 
+                 <span id ="lastUpdate"></span><br>
+                 Powered by: Raspbbery Pi 4<br>
+                 Web Designed by: Norvillie Villaruel<br>
+                 Contact: <strong>nozkie@gmail.com</strong>
+
+
+              </p>
+            </div>
+          </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>    
+    <script src="/index.js"></script>
+</body>
+</html>
+

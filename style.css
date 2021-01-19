@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.shadow-default{
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.52);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.52);
+}
